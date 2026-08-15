@@ -8,7 +8,7 @@ RUN chmod 0755 /tmp/app.AppImage && \
     mkdir -p /stage && \
     cp -a /tmp/squashfs-root/. /stage/
 
-FROM ghcr.io/containerpak/mesa64:main
+FROM ghcr.io/containerpak/gtk3:main
 
 LABEL org.opencontainers.image.source="https://github.com/Containerpak/vacuumtube"
 
@@ -18,4 +18,3 @@ COPY vacuumtube.desktop /usr/share/applications/vacuumtube.desktop
 COPY icon.png /usr/share/icons/hicolor/128x128/apps/vacuumtube.png
 
 RUN chmod 0755 /usr/bin/vacuumtube && cpak-clean-junk
-
