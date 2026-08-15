@@ -1,3 +1,2 @@
 #!/bin/sh
-exec /opt/vacuumtube/AppRun "$@"
-
+APPDIR=/opt/vacuumtube exec /opt/vacuumtube/AppRun "$@"
