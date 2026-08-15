@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=VacuumTube
+Comment=Watch YouTube with a television-focused interface.
+Exec=vacuumtube %U
+Icon=vacuumtube
+Terminal=false
+Categories=AudioVideo;Video;
+
