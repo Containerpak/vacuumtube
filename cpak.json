@@ -4,7 +4,7 @@
   "name": "VacuumTube",
   "description": "Watch YouTube with a television-focused interface.",
   "version": "1.8.2",
-  "image": "ghcr.io/containerpak/vacuumtube@sha256:afe00fba5e760d6e9ebc9add381afcf262ce16112a9843c47d5a74565cfeaac5",
+  "image": "ghcr.io/containerpak/vacuumtube@sha256:6bd3c7a7b360b825541ddbde44db3cf607d9dcf1f6ee8c4e94e48de70dba7320",
   "binaries": [
     "/usr/bin/vacuumtube"
   ],
